@@ -1,0 +1,34 @@
+:root {
+  --amberui-white: #FFFFFF;
+  --amberui-black: #000000;
+  --amberui-green: #02C8A8;
+  --amberui-green-hover: #00AF95;
+  --amberui-red: #FF618A;
+  --amberui-danger: #ff4d4f;
+  --amberui-danger-hover: #ff7875;
+  --amberui-modal-bg: rgba(15, 15, 15, 0.7);
+  --amberui-success: #02C8A8;
+  --amberui-warning: #ECB356;
+  --amberui-fail: #EC685B;
+  --amberui-linear: linear-gradient(90.45deg, #46EE96 0.41%, #43BED7 99.64%);
+  --amberui-linear-hover: linear-gradient(90.45deg, #3FD988 0.41%, #36AAC1 99.64%);
+  --amberui-l1: #0F0F0F;
+  --amberui-l2: #666666;
+  --amberui-l3: #999999;
+  --amberui-disabled: #CCCCCC;
+  --amberui-input: #EEEEEE;
+  --amberui-divide: #FAFAFA;
+  --amberui-pages: #FFFFFF;
+  /* è‡ªå®šä¹‰ç»„ä»¶ */
+  --amberui-icon-hover: #0F0F0F;
+  /* Antd å˜é‡è¦†ç›– */
+  --amberui-radio-border-color: #CCCCCC;
+  --amberui-switch-handle-bg: #FFFFFF;
+  --amberui-checkbox-disable-bg: #EEEEEE;
+  --amberui-slider-dot-bg: #FFFFFF;
+  --amberui-dropdown-arrow-color: #FFFFFF;
+  --amberui-dropdown-hover-color: #EEEEEE;
+  --amberui-scroll-bar-corner-color: #FFFFFF;
+  --amberui-btn-disable-color: #FFFFFF;
+  --amberui-select-item-option-disabled: #CCCCCC;
+}

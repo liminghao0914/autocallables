@@ -1,0 +1,52 @@
+.navbar {
+  background-color: #333;
+  position: relative;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  font-size: 24px;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  max-height: 0;
+}
+
+.navbar-menu.open {
+  max-height: 200px;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #111;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-toggle {
+    display: none;
+  }
+  .navbar-menu {
+    max-height: none;
+  }
+}

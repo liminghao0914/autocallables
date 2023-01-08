@@ -1,0 +1,607 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.body{
+  background: #142227;
+  font-family: 'Inter', sans-serif;
+  width: 70%;
+  padding: 3%;
+  border: 5px solid;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'part1  part2';
+  gap: 10px;
+  background-color: #fdfdfdf1;
+  padding: 10px;
+
+}
+
+.earn1{
+  grid-area: part1;
+  background: #fdfdfdf1;
+  font-family: 'Inter', sans-serif;
+  padding: 3%;
+  border: 5px solid;
+  width: 700px;
+  margin-top: 5%;
+}
+
+.earn2{
+  grid-area: part2;
+  background: #fdfdfdf1;
+  font-family: 'Inter', sans-serif;
+  padding: 3%;
+  border: 5px solid;
+  margin-top: 5%;
+}
+
+
+
+.farming-container{
+
+  box-sizing: border-box;
+  box-shadow: 0px 4px 12px #333443;
+  @apply bg-[#ffffff21]  border border-[#A2A2A2] rounded-md p-4  lg:p-12 ;
+}
+
+.input{
+  @apply w-full text-white bg-transparent border border-white py-2 px-3 focus:outline-none focus:ring focus:ring-[#8C98FF] ease-out duration-500 ;
+}
+
+.input-btn-label{
+  @apply w-40 border bg-[#ffffff4f] text-white rounded-r-md px-2 focus:outline-none ;
+}
+
+.stake{
+  @apply w-full bg-[#8C98FF] text-white text-center font-bold rounded-md p-2 mt-4 hover:bg-[#8c97ff63] hover:border-[#a4adff] ease-out duration-500 ;
+}
+
+.un-stake{
+  @apply w-full text-white text-center font-bold rounded-md p-2 mt-2 hover:bg-[#ffffff28] ease-out duration-500;
+}
+
+.connect-btn{
+  @apply w-40 text-white text-center font-bold rounded-md hover:bg-[#ffffff28] ease-out duration-500;
+}
+
+.add-tether{
+  @apply w-full text-white bg-transparent text-center text-sm font-medium uppercase rounded-md p-2 mt-2 hover:bg-[#ffffff28] ease-out duration-500;
+}
+
+
+.parent {
+  margin: 1px;
+  text-align: center;
+  align-items: center;
+  justify-items: flex-start;
+  height: 40px;
+}
+.parent-loan {
+  margin: 1px;
+  text-align: center;
+  align-items: center;
+  justify-items: right;
+  height: 80px;
+}
+
+
+.parent-earn {
+  margin: 1px;
+  text-align: center;
+  align-items: center;
+  justify-items: start;
+  height: 30px;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.flex-container > div {
+  margin: 0 1px;
+  text-align: center;
+}
+
+
+.spot-container {
+  display: flex;
+  align-items: center;
+  vertical-align:bottom;
+  height: 50px;
+  border-top: 1px solid var(--font-color-disabled);
+  border-bottom: 1px solid var(--font-color-disabled);
+}
+
+
+.spot-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align:bottom;
+  height: 50px;
+  border-top: 1px solid var(--font-color-disabled);
+  border-bottom: 1px solid var(--font-color-disabled);
+  padding: 5px;
+}
+
+
+.loan-container {
+  display:flex;
+  align-items: center;
+  height: 500px;
+  padding: 5px;
+  justify-content: center;
+  background-color: greenyellow;
+}
+
+
+.loan-container1 {
+  display:flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: center;
+  background-color: greenyellow;
+}
+
+
+.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+
+
+.formula-wrapper {
+
+  width: 600px;
+  height: 462px;
+  display: flex;
+  justify-content: center;
+  background: rgb(44 207 159 / 10%);
+  border-radius: 4px;
+  position: relative;
+  color: #637683;
+}
+
+.formula___1W5KK {
+  width: 520px;
+  padding: 32px 24px 35px;
+}
+
+.entry-panel___RxvD3 {
+  font-size: 12px;
+}
+
+.iconCoin___377Bj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 36px!important;
+}
+
+
+.value___3Degl {
+  font-weight: 700;
+  color: #0f0f0f;
+}
+
+.output-panel___2Gkup {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-top: 1px solid #cccccc;
+}
+
+.borrowBtn___k3KKD {
+  width: 100%;
+  display: flex;
+}
+
+.formula-item___-AVzv {
+  color: #666666;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.ratio-li 
+{
+  height: 32px;
+  line-height: 32px;
+  padding: 0 13px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  list-style-type: none;
+}
+
+
+.iframediv {
+  position: relative;
+  width: 900px;
+  height: 760px;
+  overflow: hidden;
+}
+
+.feargreedindex {
+  position: absolute;
+  top: -190px;
+  left: -350px;
+  width: 1900px;
+  height: 770px;
+}
+
+
+.iframecontent {
+  position: absolute;
+  top: -230px;
+  left: -250px;
+  width: 900px;
+  height: 760px;
+}
+
+.volitility {
+  position: absolute;
+  top: -190px;
+  left: -350px;
+  width: 1900px;
+  height: 770px;
+}
+
+
+.iframecontent2 {
+  position: absolute;
+  top: -230px;
+  left: -250px;
+  width: 900px;
+  height: 840px;
+}
+
+
+.lsdiv {
+  position: relative;
+  left: 200px;
+  width: 1400px;
+  height: 760px;
+  overflow: hidden;
+}
+
+.lsposition {
+  position: absolute;
+  top: -180px;
+  left: -250px;
+  width: 1900px;
+  height: 800px;
+}
+
+.avgbtc {
+  position: absolute;
+  top: -200px;
+  left: -350px;
+  width: 1900px;
+  height: 800px;
+}
+
+
+
+
+
+
+.nftdiv {
+  position: relative;
+  left: 160px;
+  width: 1460px;
+  height: 800px;
+  overflow: hidden;
+}
+
+
+.bayc {
+  position: absolute;
+  top: -770px;
+  left: -120px;
+  width: 1700px;
+  height: 1260px;
+}
+
+.punks {
+  position: absolute;
+  top: -770px;
+  left: -120px;
+  width: 1700px;
+  height: 1260px;
+}
+
+
+.nftscan{
+  position: absolute;
+  top: -230px;
+  left: -250px;
+  width: 900px;
+  height: 760px;
+}
+
+.nftstats{
+  position: absolute;
+  top: -230px;
+  left: -250px;
+  width: 900px;
+  height: 760px;
+}
+
+.nftgo{
+  position: absolute;
+  top: -230px;
+  left: -250px;
+  width: 900px;
+  height: 760px;
+}
+
+
+
+
+
+.longshortdiv{
+  position: relative;
+  left: 200px;
+  width: 900px;
+  height: 760px;
+  overflow: hidden;
+}
+
+.LongShortRatio{
+  position: absolute;
+  top: -230px;
+  left: 0px;
+  width: 900px;
+  height: 660px;
+}
+
+
+
+.tracker{
+  position: absolute;
+  top: -130px;
+  left: 0px;
+  width: 900px;
+  height: 850px;
+}
+
+.defillama{
+  position: absolute;
+  top: -390px;
+  left: 0px;
+  width: 900px;
+  height: 800px;
+}
+
+.topgames{
+  position: absolute;
+  top: -230px;
+  left: -250px;
+  width: 900px;
+  height: 760px;
+}
+
+
+.trackerdiv {
+  position: relative;
+  left: 200px;
+  width: 900px;
+  height: 760px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+
+.defillamadiv {
+  position: relative;
+  left: 200px;
+  width: 900px;
+  height: 760px;
+  overflow: hidden;
+}
+
+.topgamesdiv{
+  position: relative;
+  left: 200px;
+  width: 900px;
+  height: 760px;
+  overflow: hidden;
+}
+
+
+
+.borrowearndiv{
+  position: relative;
+  width: 1100px;
+  height: 1250px;
+  overflow: hidden;
+}
+
+.borrowHist{
+  position: absolute;
+  top: -150px;
+  left: -330px;
+  width: 1100px;
+  height: 4060px;
+}
+
+.earnHist{
+  position: absolute;
+  top: -150px;
+  left: -330px;
+  width: 1100px;
+  height: 4060px;
+}
+
+
+
+
+
+.uniswapdiv {
+  position: relative;
+  left: 200px;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.ifuniswap {
+  position: absolute;
+  top: -80px;
+  left: -50px;
+  width: 80%;
+  height: 600px;
+}
+
+
+.quickswapdiv {
+  position: relative;
+  left: 200px;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+}
+
+.ifquickswap {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 80%;
+  height: 900px;
+}
+
+
+.divnavibar{
+background-color: white;
+width: 100%;
+height: 100px;
+
+
+}
+
+/* Dropdown Button */
+.dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #88d9f5;}
+
+
+.navibarlink{
+
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.InputLine_inputNumber__hamNe {
+  flex: 1 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+
+
+.toggle-button-box {
+  align-items: center;
+  background: var(--comb-input-bg);
+  border: 1px solid var(--okd-color-line-secondary);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: var(--okd-color-text-amplifed);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 400;
+  height: 40px;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 82px;
+  min-width: 72px;
+  padding: 0 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.InputLine_toggleBtn__MW3pQ {
+  margin-left: 8px;
+}
+
+
+.spotdiv {
+  position: relative;
+  left: 200px;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+}
+
+.ifspot {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 80%;
+  height: 900px;
+}

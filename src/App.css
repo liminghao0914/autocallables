@@ -1,0 +1,447 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+.sidebar {
+    box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+}
+
+.nav-item,
+.navbar {
+    z-index: 10000;
+}
+
+@media screen and (max-width:800px) {
+    .sidebar {
+        z-index: 10000000;
+    }
+}
+
+.e-dlg-center-center,
+.e-quick-popup-wrapper.e-device {
+    z-index: 10;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(216, 216, 216);
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+/* color-picker style  */
+
+#preview {
+    background: transparent url('https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png') no-repeat;
+    display: inline-block;
+    height: 80px;
+    margin: 10px 0;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: #008000;
+}
+
+.e-input-group:not(.e-float-icon-left),
+.e-input-group.e-success:not(.e-float-icon-left),
+.e-input-group.e-warning:not(.e-float-icon-left),
+.e-input-group.e-error:not(.e-float-icon-left),
+.e-input-group.e-control-wrapper:not(.e-float-icon-left),
+.e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left),
+.e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left),
+.e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left) {
+    border: none;
+}
+
+
+/* This is account css */
+
+.wrapper {
+    display: grid;
+    /* grid-template-columns:1fr 1fr 1fr;*/
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    /* grid-auto-rows:100px; */
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.nested {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+}
+
+.wrapper>div {
+    background: #1E4DB7;
+    padding: 1em;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    opacity: 30;
+}
+
+.wrapper>div:hover {
+    opacity: 0.7;
+}
+
+.nested>div {
+    padding: 1em;
+}
+
+
+/* this if for popup*/
+
+.modal,
+.overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #cbcece;
+    padding: 2px 2px;
+    border-radius: 3px;
+    min-width: 500px;
+    max-height: 500px;
+    z-index: 1;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+
+
+/* this is for account */
+
+.tablet {
+    margin: 4px, 4px;
+    padding: 4px;
+    white-space: nowrap;
+    scrollbar-width: thin;
+}
+
+.card {
+    margin: 5px;
+    padding: 2px;
+    display: inline-block;
+    background-color: currentColor;
+    width: 31%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    border-radius: 5px;
+    opacity: 0.3;
+}
+
+.card:hover {
+    opacity: 1.2;
+  }
+
+.card img {
+    margin: 8%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+
+/* this is for assets scrolling cards*/
+
+.scrolling-wrapper {
+    margin: 1px, 1px;
+    padding: 4px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    vertical-align: baseline;
+}
+
+.card1 {
+    margin: 1px;
+    padding: auto;
+    display: inline-block;
+    background-color: currentColor;
+    width: 15%;
+    height: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    border-radius: 5px;
+}
+
+.card1 img {
+    margin: 8%;
+    display: inline;
+    width: 30px;
+}
+
+.nethead {
+    margin: 2px;
+    padding: 3px;
+    width: 95%;
+    height: 100px;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.parent {
+    margin: 2px;
+    padding: 3px;
+    display: grid;
+    width: 95%;
+    height: 50%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.div4 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.div5 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.div6 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.netcard {
+    margin: 2%;
+    padding: 5%;
+    display: inline-block;
+    background-color: ;
+    width: 100%;
+    height: 40%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    border-radius: 5px;
+    background-color: #ebf1f5;
+}
+
+.net1 {
+    margin-top: 5px;
+    position: relative;
+    left: 5%;
+    width: 40%;
+    height: 30px;
+    border-top-left-radius: 5px;
+    align-content: center;
+    margin-left:'auto';
+    margin-right:'auto';
+}
+
+.net2 {
+    margin-top: 30px;
+    height: 75%;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;    
+}
+
+.net3 {
+    height: 40%;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 5%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.net4 {
+    height: 60%;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.defihead {
+    margin: 2px;
+    padding: 3px;
+    height: 600px;
+    background-color: #f7f4ef;
+}
+
+.defi {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 200px;
+}
+
+.defi1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.defi2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.defi3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.defi4 {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.defi5 {
+    grid-area: 1 / 5 / 2 / 6;
+}
+
+.defi6 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.defi7 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.defi8 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.defi9 {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+.defi10 {
+    grid-area: 2 / 5 / 3 / 6;
+}
+
+.deficard {
+    margin: 1px;
+    padding: auto;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    border-radius: 5px;
+}
+
+.app1 {
+    position: relative;
+    left: 25%;
+    height: 60%;
+    border-radius: 5px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.app2 {
+    background-color: white;
+    height: 75%;
+    border-radius: 5px;
+    height: 35%;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+.demo-wrap {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 400px;
+    height: 400px;
+    opacity: 1.0;
+    background-image: url('https://588ku.com/ycbeijing/6054551.html');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+  }
+  
+.try {
+
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+
+.exchange {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 250px;
+}
+
+.ex1 {
+    position: relative;
+    left: 25%;
+    width: 40%;
+    height: 10px;
+    align-content: center;
+    margin-left:'auto';
+    margin-right:'auto';
+}
+
+.excard {
+    margin: 1px;
+    padding: auto;
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    border-radius: 5px;
+}
+
+
+.acc1 {
+    position: relative;
+
+    height: 40px;
+    align-content: center;
+    margin-left:'auto';
+    margin-right:'auto';
+}
+
+
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

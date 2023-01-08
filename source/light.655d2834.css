@@ -1,0 +1,211 @@
+:root {
+  /* å…ˆä»ŽåŸºç¡€é…è‰²å¯»æ‰¾æ˜ å°„å…³ç³»ï¼Œå¦‚æžœæ²¡æœ‰æ‰æ–°å»ºæ˜ å°„å…³ç³» */
+  /* åŸºç¡€é…è‰² */
+  /* æ ‡é¢˜æ–‡å­— */
+  --font-color-title: #0F0F0F;
+  /* æ­£æ–‡æ–‡å­— */
+  --font-color-body: #666666;
+  /* è¾…åŠ©æ–‡å­— */
+  --font-color-help: #999999;
+  /* åˆ†å‰²çº¿/ç¦ç”¨ */
+  --font-color-disabled: #CCCCCC;
+  /* è¾“å…¥æ¡†èƒŒæ™¯ */
+  --bg-color-input: #EEEEEE;
+  /* åˆ†å‰²æ¨¡å—èƒŒæ™¯ */
+  --bg-color-divide: #FAFAFA;
+  /* é¡µé¢èƒŒæ™¯ */
+  --bg-color-page: #FFFFFF;
+  /* é«˜äº®åŒºåŸŸèƒŒæ™¯è‰² */
+  --bg-color-height-light: #FAFAFA;
+  /* æ»šåŠ¨æ¡é¢œè‰² */
+  --scroll-bar-color: #CCCCCC;
+  --scroll-bar-corner-color: #FFFFFF;
+  /* iconé¢œè‰² */
+  --icon-color: #999999;
+  --icon-hover-color: #0F0F0F;
+  /* åŸºç¡€é…è‰² end */
+
+  /* åŒé¦–é¡µ banner ä¸­æŒ‰é’®çš„èƒŒæ™¯è‰²*/
+  --double-home-page-button-bg: rgba(255, 255, 255, 1);
+  --double-home-page-button-border: none;
+
+  /* åˆ†å‰²çº¿ */
+  --dividing-bg: #E5E5E5;
+
+  /* åŸºç¡€ç»„ä»¶ */
+  /* Button ç»„ä»¶ */
+  --btn-disable-bg: #CCCCCC;
+  --btn-disable-color: #FFFFFF;
+  --btn-text-color: #0F0F0F;
+  --btn-text-icon-color: #999999;
+  --btn-text-icon-disable-color: #CCCCCC;
+
+  /* Radio */
+  --radio-border-color: #CCCCCC;
+  --radio-inner-default-bg: #CCCCCC;
+  --radio-disable-bg: #EEEEEE;
+  --radio-disable-border-color: #CCCCCC;
+
+  /* Slider */
+  --slider-dot-bg: #FFFFFF;
+
+  /*Select*/
+  --select-disabled-color: #999999;
+
+  /* Checkbox */
+  --checkbox-disable-bg: #EEEEEE;
+  --checkbox-disable-border-color: #CCCCCC;
+
+   /* Switch */
+   --switch-default-bg: #CCCCCC;
+   --switch-handle-bg: #FFFFFF;
+
+  /* Pagination */
+  --pagination-hover-bg: #EEEEEE;
+  --pagination-font-color: #666666;
+
+   /* Modal */
+   --modal-bg: #FFFFFF;
+  --modal-tips-bg: #FAFAFA;
+
+  /* Picker */
+  --picker-bg: #FFFFFF;
+  --picker-secondary-color: #CCCCCC;
+  --picker-icon-color: rgba(102, 102, 102, 0.5);
+  --picker-icon-hover-color: rgba(102, 102, 102, 1);
+  /* ä¼˜æƒ åˆ¸ */
+  --coupon-bg-color: #FFFFFF;
+  --coupon-rules-color: #CCCCCC;
+  --coupon-bg-used-color: #EEEEEE;
+  /* ç¼–è¾‘å¤´åƒ */
+  --photo-bg-color: #FAFAFA;
+
+  /* é‚€è¯·å¥½å‹ */
+  --invite-banner-one: #48F577;
+  --invite-banner-two: #02C8A8;
+  --invite-banner-three: #02C8A8;
+  --invite-banner-four: #2198DD;
+  --invite-bg-color: rgba(15, 15, 15, 0.1);
+  --invitelevel-card-bg: #FFFFFF;
+  --invitelevel-card-more: #999999;
+  --invitelevel-card-bar: #EEEEEE;
+  --invitelevel-rule-bg: #FFFFFF;
+  --invitelevel-rule-tables-bg: #FAFAFA;
+  --interpolation-op: 0.06;
+  --interpolation-op-bg: #0F0F0F;
+  --interpolation-op-right: linear-gradient(to bottom right, #FFF7CF 0%, #E4FFDE 21%, #E5FFDF 100%);
+  --invite-footer-bg: linear-gradient(91.17deg, rgba(245, 255, 252, 0.9) 0.61%, rgba(219, 241, 255, 0.9) 99.06%);
+  --invite-rebate-bg: linear-gradient(91.17deg, #45A0F1 0.61%, #3383E6 99.06%);
+  --invite-rebate-before: #46A0F2;
+  --invite-rebate-after: #2B79E2;
+  --invite-rebate-shadow: 0px 4px 8px rgba(26, 101, 189, 0.3);
+  /* API Management */
+  --api-management-tips-bg: rgba(2, 200, 168, 0.1);
+  /* Dropdown */
+  --dropdown-arrow-color: #FFFFFF;
+  --dropdown-hover-color: #EEEEEE;
+
+  /* Table */
+  --table-tr-expand-bg: rgba(15, 15, 15, 0.05);
+  /* Notification */
+  --notification-bg: #FFFFFF;
+
+  /* åŸºç¡€ç»„ä»¶ end */
+
+  /* subAccount */
+  --amber-sub-account-transfer-bg:rgba(2, 200, 168, 0.1);
+  --amber-sub-account-manage-bg:#EEEEEE;
+  --amber-sub-account-custidian:#FAFAFA;
+  --amber-sub-account-custidian-tips: #666666;
+  /* é’±åŒ…  */
+  --asset-wallet-chart-text-color: #666666;
+  --asset-wallet-chart-tooltip-bg: #FFFFFF;
+  --asset-wallet-chart-tooltip-text-title: #666666;
+  --asset-wallet-chart-tooltip-text-number: #0f0f0f;
+  --asset-wallet-tips-bg: rgba(2, 200, 168, 0.1);
+  --asset-wallet-dialog-tip-bg: #FAFAFA;
+  --asset-wallet-dialog-tip-text: #999999;
+  --asset-wallet-logo: #000000;
+  --asset-wallet-add-address: #0F0F0F;
+  --asset-wallet-deposit-item: #CCCCCC;
+  --asset-wallet-table-hover: rgba(15, 15, 15, 0.05);
+  --asset-wallet-add-icon: #999999;
+
+  /* å€Ÿè´·æ¨¡å— */
+  --loan-calculator-bg: rgba(2, 200, 168, .1);
+
+  /*åŒå¸æ¨¡å—*/
+  --invest-axis-color: #F7F7F7;
+  --invest-modal-color: #FFFFFF;
+  --invest-border: #ccc;
+  --invest-modal-text: #666666;
+
+  /* é¡¶éƒ¨å¯¼èˆª */
+  --nav-contact-content-hover-bg: #EEEEEE;
+
+  /* ä¸šåŠ¡æ¨¡å— */
+  /* äº¤æ˜“ */
+  --trade-dasboard-item-bg: #EEEEEE;
+  --trade-dasboard-item-active-bg: #CCCCCC;
+  --trade-card-radio-color: #0F0F0F;
+  --trade-card-time-color: #CCCCCC;
+  --menu-item-hover-bg: #FAFAFA;
+  --swap-banner-bg: linear-gradient(270deg, #0575E6 0%, #02F260 100%);
+  --swap-input-hover-bg: #FFFFFF;
+  --swap-banner-tip-color: #FFFFFF;
+  --fee-current-bg: #FFFFFF;
+  --fee-line-border-color: #212529;
+  /* äº¤æ˜“klineç‰ˆ */
+  --trade-kline-box-hover-bg: #EEEEEE;
+  --trade-kline-select-hover-bg: #EEEEEE;
+  --trade-kline-search-inpput-bg: #EEEEEE;
+  --trade-kline-margin-modal-bg: #FFFFFF;
+  --trade-kline-drag-bg: rgba(15, 15, 15, 0.05);
+  --trade-kline-select-bg: #EEEEEE;
+  --trade-kline-fav-icon-color: #CCCCCC;
+
+  /* éªŒè¯å¼¹çª—*/
+  --security-bg: #FFFFFF;
+  /* ç™»å½•æ³¨å†Œæ¨¡å— */
+  --login-bg: #FFFFFF;
+  --login-bottom-right: linear-gradient(270deg, rgba(255, 255, 255, 1), rgba(204, 204, 204, 1));
+  --login-bottom-left: linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(204, 204, 204, 1));
+  --home-page-banner-card-bg: rgba(15, 15, 15, 0.1);
+  --login-icon-bg: rgba(15, 15, 15, 0.05);
+
+  /* ç†è´¢æ¨¡å— */
+  /* --earn-banner-bg: linear-gradient(135deg, rgb(58, 210, 130) 0%, rgb(0, 189, 161) 100%); */
+  --earn-banner-container-bg: rgba(15, 15, 15, 0.1);
+  --earn-new-bg: linear-gradient(270deg, #0575E6 1.13%, #02F260 98.19%);
+  --earn-anniversary-bg: linear-gradient(270deg, #DAC080 3.36%, #EADBA1 98.4%);
+  --earn-vip-bg: linear-gradient(270deg, #3A3A3D 3.36%, #545457 98.4%);
+  --earn-icon-dot: #FFFFFF;
+  --earn-his-renewal-bg: #CCCCCC;
+
+  /* kyc æ¨¡å— */
+  --kyc-pi-modal-subtitle: #0F0F0F;
+  --kyc-pi-modal-content: #0F0F0F;
+  --kyc-pi-document-file-delete-icon: #999999;
+
+  --kyc-client-switcher-title: #0F0F0F;
+  --kyc-client-switcher-subtitle: #666666;
+  --kyc-client-switcher-border: #CCCCCC;
+
+  --kyc-person-address-card-bg: #FAFAFA;
+
+  --kyc-person-progress-empty-bg: #EEEEEE;
+  --kyc-org-progress-left-arrow-bg: #FFFFFF;
+  --kyc-org-progress-undo-color: #CCCCCC;
+  --kyc-org-progress-done-after-color: #E5F9F6;
+
+  --kyc-input-textarea-placeholder-color: #999999;
+
+  --gradient-background-color-transparent: rgba(255, 255, 255, 0);
+  --gradient-background-color-no-transparent: rgba(255, 255, 255, 1);
+
+  /* ç»´æŠ¤é¡µé¢*/
+  --maintain-head-bg-color: #FFFFFF;
+  --maintain-center-bg-color: #FFFFFF;
+  --maintain-center-text-color: #666666;
+
+}
